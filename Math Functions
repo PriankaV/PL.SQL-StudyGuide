@@ -1,0 +1,10 @@
+DECLARE
+num1 NUMBER := -5;
+num2 NUMBER := 10;
+num3 NUMBER := 20;
+num4 DECIMAL := 0.2;
+BEGIN
+dbms_output.put_line(ABS(num1));
+dbms_output.put_line(ACOS(num4));
+-- COS ACOS COSH SIN ASIN SINH TAN ATAN ATAN2 TANH 
+END;
