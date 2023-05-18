@@ -14,6 +14,8 @@ dbms_output.put_line(TRUNC(num4));
 dbms_output.put_line(SIGN(num2)); 
 -- Returns {-1 when x<0},{0 when x=0}, {1 when x>0}
 
+dbms_output.put_line(MOD(num3, num2));
+dbms_output.put_line(POWER(num3, num2));
+dbms_output.put_line(REMAINDER(num2, num3));
 
---MOD POWER REMAINDER
 END;
